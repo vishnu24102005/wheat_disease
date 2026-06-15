@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.gitignore
+node_modules/
+=======
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.gitignore
+node_modules/
+>>>>>>> d2683fb (full version)
+wheat_model.h5
