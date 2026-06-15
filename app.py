@@ -15,7 +15,7 @@ if not os.path.exists(MODEL_PATH):
         quiet=False
     )
 # Load model
-model = load_model("MODEL_PATH")
+model = load_model(MODEL_PATH)
 
 
 classes = ['wheat_brown_rust', 'wheat_healthy', 'wheat_yellow_rust']
