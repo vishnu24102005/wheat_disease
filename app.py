@@ -6,11 +6,11 @@ import os
 import gdown
 
 app = Flask(__name__)
-MODEL_PATH = "wheat_model.h5"
+MODEL_PATH = "wheat_model.keras"
 
 if not os.path.exists(MODEL_PATH):
     gdown.download(
-        "https://drive.google.com/uc?id=1CmjDGxGB4jfiNI8HNOvBymewokVCxWSa",
+        "https://drive.google.com/uc?id=1-0XOfc83T0DRDYgDjQedPDlSXFhwaPIH",
         MODEL_PATH,
         quiet=False
     )
